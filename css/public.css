@@ -1,0 +1,253 @@
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+#wraper{
+    width: 1902px;
+    overflow: hidden;
+    background-color: rgb(248,248,248);
+
+}
+.head-top{
+    height: 37px;
+    color: #222222;
+    font-size: 14px;
+    position: fixed;
+    max-height: 37px;
+    height: 37px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1003;
+    transition: top .3s;
+    background-color: rgb(249,249,249);
+    opacity: 0.8;
+}
+.div-left{
+    padding-left: 10px;
+    line-height: 37px;
+}
+.aa{
+    padding-left: 40px;
+}
+.div-left>button{
+    margin-left: 30px;
+    background-color: #45a2ff;
+    border: none;
+    width: 70px;
+    height: 24px;
+    cursor: pointer;
+    color: white;
+}
+.div-left>button a{
+    color: white;
+}
+.head{
+    height: 135px;
+    
+}
+.logo{
+    line-height: 135px;
+    float: left;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ed3da1;
+}
+.search{
+    float: left;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.search a{
+    padding-left: 10px;
+    color: gray;
+}
+.text{
+    width: 380px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    text-indent: 10px;
+    font-size: 15px;
+    color: rgb(155, 148, 148);
+}
+.sub{
+    width: 100px;
+    height: 44px;
+    background-color: #ed3da1;
+    border: none;
+    color: white;
+}
+.shop{
+    float: right;
+    width: 154px;
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    margin-top: 40px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+}
+.unshop{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+   right: 0;
+    border: 1px solid #e6e6e6 ;
+    display: none;
+    z-index: 99;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+#nav{
+    background-color: black;
+    height: 50px;
+}
+.ul li{
+    float: left;
+    width: 120px;
+    line-height: 50px;
+    text-align: center;
+}
+.ul li a{
+    color:white;
+    font-size: 16px;
+}
+.ul li:hover{
+    background-color: #ed3da1;
+}
+.ul{
+    position: relative;
+}
+.box{
+    width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: white;
+    position: absolute;
+display: none;
+left: 290px;
+z-index: 99;
+}
+.ul1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 1300px;
+}
+.ul1 li{
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 310px;
+}
+.ul1 li div h1{
+    color: pink;
+    font-size: 18px;
+}
+.banner{
+    width: 1918px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-img{
+    height: 500px;
+}
+.banner-img>ul>li{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.banner-ctrl {
+    text-align: center;
+    padding-top: 10px;
+}
+.banner-ctrl-con {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icon.png) no-repeat -24px -780px;
+    text-indent: -99999px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.banner-ctrl-con.current {
+    background-position: -24px -760px;
+}
+.prev,.next {
+    position: absolute;
+    top: 40%;
+    width: 60px;
+    height: 35px;
+    background: url(../images/icon.png) no-repeat;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+    background-position: 0 -44px;
+}
+
+
+
+
+
+
+
+
+
+#foot{
+    background-color: #fff;
+    height: 270px;
+    margin-top: 50px;
+    margin-left: -352px;
+}
+.footist{
+    height: 90px;
+    background-color: rgb(43,43,43);
+    margin-left: -352px;
+
+}
+.top{
+    color: #444;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.top a{
+    padding-left: 70px;
+}
+ .img1{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.ul2{
+    padding-left: 40px;
+}
+.ul2 ul{
+    float: left;
+    padding-left: 80px;
+    line-height: 30px;
+}
+.img2{
+    float: left;
+    padding-left: 100px;
+margin-top: -100px;}
+
+.ma{
+    float: left;
+    padding-left: 100px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+.ma p{
+    text-indent: 20px;
+    line-height: 20px;
+}

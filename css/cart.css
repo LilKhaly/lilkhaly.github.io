@@ -1,0 +1,49 @@
+.show{
+    width: 1200px;
+    height: 200px;
+    
+}
+.show>button{
+    margin: 10px 500px;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.show h1{
+    font-size: 30px;
+    color: red;
+}
+.thd{
+    width: 990px;
+    height: 43px;
+    background-color: #F3F3F3;
+    font-size: 16px;
+    line-height: 43px;
+    color: #434343;
+}
+tbody tr td{
+    text-align: center;
+    background-color: #fff;
+    height: 100px;
+}
+tbody td img{
+    width: 80px;
+    height: 80px;
+}
+.add{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cut{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    font-size: 20px;
+    cursor: pointer;
+}

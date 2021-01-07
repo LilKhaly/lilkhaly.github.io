@@ -1,0 +1,71 @@
+#cent{
+    height: 828px;
+}
+.center{
+    height: 608px;
+    background-color: #fff;
+}
+.cbox{
+    height: 55px;
+    border-bottom: 1px solid rgb(234,234,234);
+}
+.leftbox{
+    width: 100px;
+    height: 55px;
+    color: #ed3da1;
+    font-size: 16px;
+    border-bottom: 1px solid #ed3da1;
+    text-align: center;
+    line-height: 55px;
+}
+.nextbox2{
+    margin: 20px 500px;}
+
+.nextbox2 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.nextbox2>form>input{
+    margin-top: 10px;
+    border: none;
+}
+#sj{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: rgb(247,247,247);
+    border: 1px solid #e9e9e9;
+margin-top: 5px;}
+
+
+#un{
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(247,247,247);
+    font-weight: bold;
+
+    border: 1px solid #e9e9e9;}
+
+#pw{
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(247,247,247);
+    border: 1px solid #e9e9e9;
+    font-weight: bold;
+
+
+}
+#lg{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(254,78,78);
+    cursor: pointer;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+}
